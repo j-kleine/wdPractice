@@ -12,22 +12,64 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="image-url">
     <meta property="og:url" content="this-page url">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
-    <header></header>
+    <div id="content">
+        <header>
+            <nav class="navbar">
+                <div class="logo logo--header">
+                    <img class="logo__image" src="images/liquidLogo.webp" width="100" height="100" alt="WebDevTemplate01 Logo">
+                    <h1 class="logo__title"><span>Lorem</span><span>Ipsum</span></h1>
+                </div>
+                <ul class="nav--list">
+                    <li><a class="nav__links" href="">Home</a></li>
+                    <li><a class="nav__links" href="">Lorem</a></li>
+                    <li><a class="nav__links" href="">Ipsum</a></li>
+                    <li><a class="nav__links" href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main></main>
-    
-    <footer>
-        <!-- Coolors Palette Widget -->
-        <script src="https://coolors.co/palette-widget/widget.js"></script>
-        <script data-id="09419208430538224">new CoolorsPaletteWidget("09419208430538224", ["141414","569eb6","c91e4b","ebebeb"]); </script>
 
-        <span>Joschua Kleine</span>
-        <span>@2023</span>
-        <span>WebDevTemplate01</span>
+
+        <main>
+            <div class="hero--container">
+                <div class="hero__message__container">
+                    <span class="hero--message hero__message-1">Lorem</span>
+                    <span class="hero--message hero__message-2">Ipsum</span>
+                    <span class="hero--message hero__message-3">Dolor</span>
+                    <span class="hero--message hero__message-4">Sit</span>
+                    <span class="hero--message hero__message-5">Amet</span>
+                </div>
+                <div class="hero__image__container-1">
+                    <img class="hero--image-1" src="images/fuzzyBallBluePink.webp" width="500" height="500" alt="">
+                </div>
+                <div class="hero__image__container-2">
+                    <img class="hero--image-2" src="images/fuzzyBallPink.webp" width="500" height="500" alt="">
+                </div>
+            </div>
+        </main>
         
-    </footer>
+
+
+        <footer>
+            <div class="logo logo--footer">
+                <img class="logo__image" src="images/liquidLogo.webp" width="50" height="50" alt="WebDevTemplate01 Logo">
+                <h1 class="logo__title"><span>Lorem</span><span>Ipsum</span></h1>
+            </div>
+            <!-- Coolors Palette Widget -->
+            <script src="https://coolors.co/palette-widget/widget.js"></script>
+            <script data-id="09419208430538224">new CoolorsPaletteWidget("09419208430538224", ["141414","569eb6","c91e4b","ebebeb"]); </script>
+
+            <span>Joschua Kleine</span>
+            <span>@2023</span>
+            <span>WebDevTemplate01</span>
+            
+        </footer>
+    </div>
 
     <!-- <script src=""></script> -->
 </body>
